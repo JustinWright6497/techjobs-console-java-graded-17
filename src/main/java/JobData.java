@@ -48,7 +48,7 @@ public class JobData {
 
     public static ArrayList<HashMap<String, String>> findAll() {
 
-        // load data, if not already loaded
+        // load data, if not already loaded,
         loadData();
 
         ArrayList<HashMap<String, String>> allJobsClone = new ArrayList<>(allJobs);
